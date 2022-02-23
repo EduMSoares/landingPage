@@ -1,0 +1,33 @@
+@media (
+    max-width: 990px
+){
+    body {
+        background: #db89b6;
+    }
+    .menuPC {
+        visibility: hidden;
+    }
+    .menuMOBILE {
+        visibility: visible;
+    }
+    .offcanvas {
+        background: #e690d1;
+        width: 30%;
+    }   
+    .mainCenter {
+        flex-direction: column;
+    }
+    .conteudoTxt {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+    }
+    .conteudoTxt p{
+        width: 85%;
+        text-align: justify;
+    }
+}
+

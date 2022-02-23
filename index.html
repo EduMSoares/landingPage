@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>LandingPage</title>
+  </head>
+  <body>
+    <nav class="menuPC navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hi! Welcome to my website</a>
+        <div class="d-flex flex-row-reverse">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Section</a>
+            <a class="nav-link" href="" #>Contact me!</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="menuMOBILE navbar navbar-dark fixed-top mx-4"> <!-- Offcanvas -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hi! Welcome to my website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Section</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me!</a>
+                  </li>
+              </ul>              
+            </div>
+          </div>
+        </div>
+      </nav> <!-- Offcanvas -->
+
+    <main class="mainCenter">
+      <section class="conteudoTxt"> <!-- Texto e plataformas -->
+        <h1>Landing</h1>
+        <h1><span>Page</span></h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          architecto, ipsam, blanditiis quas aliquam dignissimos placeat sunt
+          possimus doloribus facilis veritatis porro iure cumque, minus nisi.
+          Quae possimus facilis ipsam?
+        </p>
+
+        <section
+          class="platafomas d-flex justify-content-space-around gap-3 alignt-items-center"
+        >
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </section>
+
+      </section> <!-- Texto e plataformas -->
+
+      <section class="circuloImg"> <!-- Imagem -->
+        <img src="img/perfil.png" alt="Mulher sorrindo" />
+      </section> <!-- Imagem -->
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cfb2b09173.js" crossorigin="anonymous"></script>
+  </body>
+</html>
